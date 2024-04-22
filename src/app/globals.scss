@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@font-face {
+  font-family: Clash Grotesk;
+  src: url(fonts/clash-grotesk.ttf);
+}
+
+@font-face {
+  font-family: Lakki Reddy;
+  src: url(./fonts/lakki-reddy.ttf);
+}
